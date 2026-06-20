@@ -9,11 +9,11 @@
     "rings": "None",
     "moons": "3",
     "visual_size_class": "Gas Giant",
-    "discovery_method": "Radial Velocity",
-    "discovery_year": 2009.0,
-    "distance_pc": 148.187,
-    "orbital_period_days": 4885.0,
-    "catalog_archetype_inferred": "Super-Jovian"
+    "discovery_method": "Unknown / Not yet added",
+    "discovery_year": null,
+    "distance_pc": null,
+    "orbital_period_days": null,
+    "catalog_archetype_inferred": "Frozen Jovian"
   },
   {
     "token_id": 312,
@@ -25,27 +25,11 @@
     "rings": "None",
     "moons": "1",
     "visual_size_class": "Large Rocky",
-    "discovery_method": "Transit",
-    "discovery_year": 2019.0,
-    "distance_pc": 243.935,
-    "orbital_period_days": 8.050722,
-    "catalog_archetype_inferred": "Lava World"
-  },
-  {
-    "token_id": 2021,
-    "name": "HD 202696 b #2021",
-    "tier": "Rare",
-    "rarity_score": 3.15,
-    "archetype": "Warm Jovian",
-    "star_system": "1-Star System",
-    "rings": "Ring System",
-    "moons": "1",
-    "visual_size_class": "Gas Giant",
-    "discovery_method": "Radial Velocity",
-    "discovery_year": 2019.0,
-    "distance_pc": 188.546,
-    "orbital_period_days": 517.8,
-    "catalog_archetype_inferred": "Gas Giant"
+    "discovery_method": "Unknown / Not yet added",
+    "discovery_year": null,
+    "distance_pc": null,
+    "orbital_period_days": null,
+    "catalog_archetype_inferred": "Hot Super-Earth"
   },
   {
     "token_id": 3577,
@@ -57,11 +41,27 @@
     "rings": "None",
     "moons": "2",
     "visual_size_class": "Large Rocky",
-    "discovery_method": "Transit",
-    "discovery_year": 2004.0,
-    "distance_pc": 159.658,
-    "orbital_period_days": 3.03006973,
-    "catalog_archetype_inferred": "Lava World"
+    "discovery_method": "Unknown / Not yet added",
+    "discovery_year": null,
+    "distance_pc": null,
+    "orbital_period_days": null,
+    "catalog_archetype_inferred": "Hot Super-Earth"
+  },
+  {
+    "token_id": 2021,
+    "name": "HD 202696 b #2021",
+    "tier": "Rare",
+    "rarity_score": 3.15,
+    "archetype": "Warm Jovian",
+    "star_system": "1-Star System",
+    "rings": "Ring System",
+    "moons": "1",
+    "visual_size_class": "Gas Giant",
+    "discovery_method": "Unknown / Not yet added",
+    "discovery_year": null,
+    "distance_pc": null,
+    "orbital_period_days": null,
+    "catalog_archetype_inferred": "Warm Jovian"
   },
   {
     "token_id": 3865,
@@ -73,11 +73,11 @@
     "rings": "None",
     "moons": "1",
     "visual_size_class": "Large Rocky",
-    "discovery_method": "Transit",
-    "discovery_year": 2016.0,
-    "distance_pc": 355.019,
+    "discovery_method": "Unknown / Not yet added",
+    "discovery_year": null,
+    "distance_pc": null,
     "orbital_period_days": null,
-    "catalog_archetype_inferred": "Ocean World"
+    "catalog_archetype_inferred": "Warm Super-Earth"
   },
   {
     "token_id": 5591,
@@ -89,10 +89,10 @@
     "rings": "None",
     "moons": "3",
     "visual_size_class": "Large Rocky",
-    "discovery_method": "Transit",
-    "discovery_year": 2016.0,
-    "distance_pc": 1441.63,
-    "orbital_period_days": 240.7989397,
-    "catalog_archetype_inferred": "Ocean World"
+    "discovery_method": "Unknown / Not yet added",
+    "discovery_year": null,
+    "distance_pc": null,
+    "orbital_period_days": null,
+    "catalog_archetype_inferred": "Temperate Super-Earth"
   }
 ]
