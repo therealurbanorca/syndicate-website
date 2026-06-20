@@ -1,7 +1,7 @@
 [
   {
     "token_id": 28,
-    "image_file": "planet-28.svg",
+    "image_file": "0028.png",
     "name": "HD 190984 b #28",
     "tier": "Uncommon",
     "rarity_score": 2.6,
@@ -18,7 +18,7 @@
   },
   {
     "token_id": 312,
-    "image_file": "planet-312.svg",
+    "image_file": "0312.png",
     "name": "EPIC 205950854 c #312",
     "tier": "Uncommon",
     "rarity_score": 2.58,
@@ -35,7 +35,7 @@
   },
   {
     "token_id": 3577,
-    "image_file": "planet-3865.svg",
+    "image_file": "3577.png",
     "name": "TrES-1 b #3577",
     "tier": "Rare",
     "rarity_score": 3.23,
@@ -52,7 +52,7 @@
   },
   {
     "token_id": 2021,
-    "image_file": "planet-2021.svg",
+    "image_file": "2021.png",
     "name": "HD 202696 b #2021",
     "tier": "Rare",
     "rarity_score": 3.15,
@@ -69,7 +69,7 @@
   },
   {
     "token_id": 3865,
-    "image_file": "planet-5591.svg",
+    "image_file": "3865.png",
     "name": "Kepler-1009 b #3865",
     "tier": "Common",
     "rarity_score": 2.48,
@@ -86,7 +86,7 @@
   },
   {
     "token_id": 5591,
-    "image_file": "planet-3577.svg",
+    "image_file": "5591.png",
     "name": "Kepler-1519 b #5591",
     "tier": "Uncommon",
     "rarity_score": 2.58,
