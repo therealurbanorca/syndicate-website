@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+  <defs>
+    <radialGradient id="planet" cx="34%" cy="28%" r="70%">
+      <stop offset="0%" stop-color="#fff3c4"/>
+      <stop offset="18%" stop-color="#49a6ff"/>
+      <stop offset="70%" stop-color="#06172e"/>
+      <stop offset="100%" stop-color="#02040a"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="14" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="ring" x1="0" x2="1"><stop offset="0" stop-color="#7d6b43" stop-opacity=".05"/><stop offset=".5" stop-color="#f2c14e" stop-opacity=".65"/><stop offset="1" stop-color="#7d6b43" stop-opacity=".05"/></linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="#02040a"/>
+  <g opacity=".55">
+    <circle cx="140" cy="180" r="2" fill="#fff"/><circle cx="310" cy="95" r="1.5" fill="#fff"/><circle cx="970" cy="220" r="2.4" fill="#fff"/>
+    <circle cx="850" cy="850" r="1.8" fill="#fff"/><circle cx="1070" cy="710" r="1.3" fill="#fff"/><circle cx="220" cy="980" r="1.7" fill="#fff"/>
+  </g>
+  
+  <circle cx="600" cy="590" r="330" fill="url(#planet)" filter="url(#glow)"/>
+  <path d="M335 520 C500 610, 690 420, 885 530" stroke="#ffffff" stroke-opacity=".10" stroke-width="28" fill="none"/>
+  <path d="M350 710 C520 790, 660 635, 870 720" stroke="#f2c14e" stroke-opacity=".12" stroke-width="20" fill="none"/>
+  <text x="600" y="1110" fill="#f2c14e" font-size="44" text-anchor="middle" font-family="Arial, sans-serif">Kepler-197 d #4</text>
+</svg>
