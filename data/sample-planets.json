@@ -1,6 +1,7 @@
 [
   {
     "token_id": 28,
+    "image_file": "planet-28.svg",
     "name": "HD 190984 b #28",
     "tier": "Uncommon",
     "rarity_score": 2.6,
@@ -17,6 +18,7 @@
   },
   {
     "token_id": 312,
+    "image_file": "planet-312.svg",
     "name": "EPIC 205950854 c #312",
     "tier": "Uncommon",
     "rarity_score": 2.58,
@@ -32,23 +34,25 @@
     "catalog_archetype_inferred": "Hot Super-Earth"
   },
   {
-    "token_id": 3865,
-    "name": "Kepler-1009 b #3865",
-    "tier": "Common",
-    "rarity_score": 2.48,
-    "archetype": "Warm Super-Earth",
-    "star_system": "1-Star System",
+    "token_id": 3577,
+    "image_file": "planet-3865.svg",
+    "name": "TrES-1 b #3577",
+    "tier": "Rare",
+    "rarity_score": 3.23,
+    "archetype": "Hot Super-Earth",
+    "star_system": "2-Star System",
     "rings": "None",
-    "moons": "1",
+    "moons": "2",
     "visual_size_class": "Large Rocky",
     "discovery_method": "Transit",
     "discovery_year": null,
     "distance_pc": null,
     "orbital_period_days": null,
-    "catalog_archetype_inferred": "Warm Super-Earth"
+    "catalog_archetype_inferred": "Hot Super-Earth"
   },
   {
     "token_id": 2021,
+    "image_file": "planet-2021.svg",
     "name": "HD 202696 b #2021",
     "tier": "Rare",
     "rarity_score": 3.15,
@@ -64,7 +68,25 @@
     "catalog_archetype_inferred": "Warm Jovian"
   },
   {
+    "token_id": 3865,
+    "image_file": "planet-5591.svg",
+    "name": "Kepler-1009 b #3865",
+    "tier": "Common",
+    "rarity_score": 2.48,
+    "archetype": "Warm Super-Earth",
+    "star_system": "1-Star System",
+    "rings": "None",
+    "moons": "1",
+    "visual_size_class": "Large Rocky",
+    "discovery_method": "Transit",
+    "discovery_year": null,
+    "distance_pc": null,
+    "orbital_period_days": null,
+    "catalog_archetype_inferred": "Warm Super-Earth"
+  },
+  {
     "token_id": 5591,
+    "image_file": "planet-3577.svg",
     "name": "Kepler-1519 b #5591",
     "tier": "Uncommon",
     "rarity_score": 2.58,
@@ -78,21 +100,5 @@
     "distance_pc": null,
     "orbital_period_days": null,
     "catalog_archetype_inferred": "Temperate Super-Earth"
-  },
-  {
-    "token_id": 3577,
-    "name": "TrES-1 b #3577",
-    "tier": "Rare",
-    "rarity_score": 3.23,
-    "archetype": "Hot Super-Earth",
-    "star_system": "2-Star System",
-    "rings": "None",
-    "moons": "2",
-    "visual_size_class": "Large Rocky",
-    "discovery_method": "Transit",
-    "discovery_year": null,
-    "distance_pc": null,
-    "orbital_period_days": null,
-    "catalog_archetype_inferred": "Hot Super-Earth"
   }
 ]
