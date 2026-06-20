@@ -8,20 +8,12 @@ async function loadSamplePlanets() {
 
     holders.forEach(holder => {
       const limit = Number(holder.getAttribute("data-limit") || planets.length);
-
       holder.innerHTML = planets.slice(0, limit).map(p => {
         const imageFile = p.image_file || `planet-${p.token_id}.svg`;
         const imagePath = `assets/images/${imageFile}`;
-
         return `
-          <article class="card feature">
-            <img src="${imagePath}" alt="${p.name} planet artwork">
-            <div class="card-body">
-              <p class="kicker">${p.tier} · Token #${p.token_id}</p>
-              <h3>${p.name}</h3>
-              <p>${p.archetype || "Exoplanet"} · ${p.star_system || "Unknown system"} · ${p.discovery_method || "Unknown method"}</p>
-              <p class="small">Moons: ${p.moons || "0"} · Rings: ${p.rings || "None"} · Discovery year: ${p.discovery_year || "Unknown"}</p>
-            </div>
+          <article class="card feature planet-card-only">
+            <img src="${imagePath}" alt="${p.name} archive preview artwork">
           </article>
         `;
       }).join("");
