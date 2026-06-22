@@ -4,10 +4,96 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Journey | The Syndicate Exoplanet Archive</title>
-  <meta name="description" content="A sci-fi NFT exoplanet collection inspired by real exoplanet data, Blender, Python, AI, and The Syndicate universe.">
+  <meta name="description" content="The creator journey behind The Syndicate Exoplanet Archive: research, coding, Blender, AI-assisted learning, GitHub, metadata, and NFT collection strategy.">
   <meta property="og:title" content="Journey | The Syndicate Exoplanet Archive">
-  <meta property="og:image" content="assets/images/social-preview.jpg">
+  <meta property="og:image" content="assets/images/journey-peter-portfolio-2.png">
   <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .journey-hero {
+      position: relative;
+      overflow: hidden;
+      padding: 82px 0 74px;
+      border-bottom: 1px solid var(--line);
+      background:
+        radial-gradient(circle at 20% 10%, rgba(85,167,255,.18), transparent 28%),
+        radial-gradient(circle at 86% 4%, rgba(242,193,78,.18), transparent 24%);
+    }
+    .journey-hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(2,4,10,.94), rgba(2,4,10,.78) 48%, rgba(2,4,10,.34)), url("assets/images/journey-peter-portfolio-2.png") right center / contain no-repeat;
+      opacity: .62;
+      pointer-events: none;
+    }
+    .journey-hero .wrapper { position: relative; z-index: 2; }
+    .journey-hero-content { max-width: 760px; }
+    .journey-hero h1 { max-width: 820px; }
+    .journey-badges { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 24px; }
+    .journey-showcase { align-items: center; }
+    .journey-portrait-card {
+      position: relative;
+      overflow: hidden;
+      padding: 0;
+      min-height: 560px;
+      display: grid;
+      align-items: end;
+    }
+    .journey-portrait-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border: 0;
+      border-radius: 20px;
+      filter: saturate(.96) contrast(1.02);
+    }
+    .journey-portrait-overlay {
+      position: absolute;
+      inset: auto 0 0 0;
+      padding: 26px;
+      background: linear-gradient(0deg, rgba(2,4,10,.92), rgba(2,4,10,.2), transparent);
+    }
+    .journey-portrait-overlay p { max-width: 520px; }
+    .journey-statement {
+      border: 1px solid rgba(242,193,78,.32);
+      border-radius: 24px;
+      padding: 30px;
+      background: linear-gradient(180deg, rgba(11,25,48,.85), rgba(7,17,31,.64));
+      box-shadow: 0 24px 80px rgba(0,0,0,.25);
+    }
+    .journey-grid .card {
+      position: relative;
+      overflow: hidden;
+      min-height: 360px;
+      padding: 28px;
+    }
+    .journey-grid .card::after {
+      content: attr(data-number);
+      position: absolute;
+      right: 22px;
+      top: 16px;
+      color: rgba(242,193,78,.08);
+      font-size: 5.4rem;
+      font-weight: 900;
+      line-height: 1;
+      pointer-events: none;
+    }
+    .journey-grid h2 { font-size: clamp(1.7rem, 3vw, 2.6rem); }
+    .journey-grid .kicker { margin-bottom: 10px; }
+    .journey-grid p { color: #c4d2ec; }
+    .journey-closing {
+      text-align: center;
+      max-width: 920px;
+      margin: 0 auto;
+    }
+    .journey-closing .card { padding: 34px; }
+    @media(max-width: 900px) {
+      .journey-hero::before { opacity: .26; background-position: center bottom; background-size: cover; }
+      .journey-portrait-card { min-height: auto; }
+      .journey-portrait-card img { height: auto; }
+      .journey-grid .card { min-height: auto; }
+    }
+  </style>
 </head>
 <body>
 <header class="header">
@@ -29,27 +115,71 @@
   </div>
 </header>
 <main>
-<section class="section">
-  <div class="wrapper">
+<section class="journey-hero">
+  <div class="wrapper journey-hero-content">
     <p class="kicker">Creator Journey</p>
     <h1>From beginner to builder.</h1>
-    <p class="big">This project is also a record of learning: AI, programming, Blender, Python, Linux, NFT metadata, worldbuilding, and sci-fi storytelling.</p>
+    <p class="big">The Syndicate Exoplanet Archive is not only a 6,100 planet NFT collection. It is the record of a creator learning how to turn public science, AI-assisted study, Python, Blender, metadata, GitHub, and long-term worldbuilding into one focused launch.</p>
+    <div class="journey-badges">
+      <span class="badge">Research</span>
+      <span class="badge">Code</span>
+      <span class="badge">Blender</span>
+      <span class="badge">Launch Strategy</span>
+      <span class="badge">Built by Orca</span>
+    </div>
   </div>
 </section>
+
 <section class="section">
-  <div class="wrapper creator-collage">
-    <div class="collage-card"><span>Research</span><strong>learning from public science</strong></div>
-    <div class="collage-card"><span>Code</span><strong>Python, metadata, and site building</strong></div>
-    <div class="collage-card"><span>Blender</span><strong>turning data into planet renders</strong></div>
-    <div class="collage-card"><span>Launch</span><strong>GitHub, marketplace prep, and collection strategy</strong></div>
+  <div class="wrapper grid two journey-showcase">
+    <article class="journey-statement">
+      <p class="kicker">Why this page matters</p>
+      <h2>The work behind the archive.</h2>
+      <p>The collection began as a broad idea and became a working archive through months of research, testing, mistakes, corrections, and rebuilds. The goal was never to let AI do the project alone. The goal was to use AI as a learning partner while still making the creative decisions, choosing the direction, building the visual identity, and pushing the collection toward a real launch.</p>
+      <p>This page is here so collectors can see the human work behind the digital art. Every planet card, metadata field, rarity decision, website correction, and Blender render is part of that journey.</p>
+    </article>
+    <article class="card journey-portrait-card">
+      <img src="assets/images/journey-peter-portfolio-2.png" alt="Peter Jackman creator portfolio collage">
+      <div class="journey-portrait-overlay">
+        <p class="kicker">Peter Jackman / Orca</p>
+        <p>A creator-led science-fiction archive built through research, code, visual experimentation, and persistence.</p>
+      </div>
+    </article>
   </div>
 </section>
+
 <section class="section">
   <div class="wrapper grid two journey-grid">
-    <article class="card"><h2>Learning with AI</h2><p>AI became a working mentor for the project, not a shortcut around the work. It helped explain coding, organize launch tasks, troubleshoot website problems, rewrite copy, structure metadata, and turn confusing technical steps into actions that could actually be followed. The important part is that the project still needed human direction. The decisions, planet choices, story connections, visual taste, and launch goals came from Orca. AI helped keep the workflow moving when the learning curve got steep.</p></article>
-    <article class="card"><h2>Learning Python</h2><p>Python became the bridge between raw exoplanet data, NFT metadata, and render logic. Instead of manually building every archive entry, the project uses scripts to organize planet names, rarity tiers, traits, render recipes, moons, rings, and output files. That turns a huge spreadsheet into something a collection can actually use. Learning Python also made the project less dependent on guesswork. Each step can be tested, corrected, and repeated as the collection grows.</p></article>
-    <article class="card"><h2>Learning Blender</h2><p>Blender is where the archive becomes visual. Planet size, lighting, texture rotation, rings, moons, atmosphere, shadow, background, and final composition all come together inside the render pipeline. Learning Blender meant learning both art and technical control: how to make a planet feel massive, how to protect a clean silhouette, and how to keep the style consistent across a collection. The goal is not just to make one good image, but to build a repeatable visual language.</p></article>
-    <article class="card"><h2>Learning by building</h2><p>The Syndicate Exoplanet Archive grows one working piece at a time: scripts, images, metadata, website pages, corrected layouts, launch notes, lore, marketplace planning, and community-facing language. Each mistake becomes part of the build process. Broken image paths, mismatched text, placeholders, and page redesigns are not failures; they are the real work of turning an idea into a launch-ready project. The collection is being built in public, step by step, by learning what needs to be fixed and fixing it.</p></article>
+    <article class="card" data-number="01">
+      <p class="kicker">Research</p>
+      <h2>Learning from public science</h2>
+      <p>I spent a little over six months researching different aspects of exoplanets before this collection started to feel real. NASA’s websites became a fundamental part of that process because they helped me understand how planets are discovered, how scientists classify them, and why public exoplanet data matters. I spent hundreds of hours online reading, comparing, and organizing information so the archive would not feel random or disconnected from real astronomy. The goal was to build a science-fiction collection with a scientific foundation underneath it. The artwork is fictional and cinematic, but the idea begins with the real search for worlds beyond our Solar System. That research gave the collection its structure: names, discovery methods, planet classes, rarity logic, moons, rings, and archive identity. It also helped me see the bigger picture. These planets are not just images. They are creative interpretations of humanity’s ongoing search for other worlds.</p>
+    </article>
+    <article class="card" data-number="02">
+      <p class="kicker">Code</p>
+      <h2>Python, metadata, and site building</h2>
+      <p>Coding became one of the biggest learning curves in the entire project. I used ChatGPT, Claude, and Gemini to help me understand programming, especially Python, but I still consider myself a beginner. I am not trying to pretend I am an expert. What matters to me is that I kept learning and kept building. Python helped connect the exoplanet catalog, the metadata, the render rules, and the website structure into something that could actually support a full collection. Building the metadata from the NASA Exoplanet Archive was a huge learning experience by itself. It forced me to think about naming, traits, rarity scores, image paths, token structure, and how collectors would understand each planet. Every script and every correction taught me something new. The code became more than a tool. It became the bridge between raw science data and a finished NFT archive.</p>
+    </article>
+    <article class="card" data-number="03">
+      <p class="kicker">Blender</p>
+      <h2>Turning data into planet renders</h2>
+      <p>Before this project, I had never used Blender. Learning it from scratch was frustrating, exciting, and honestly overwhelming at times. I watched so many videos on rendering planets, lighting scenes, building textures, creating shadows, working with rings, and controlling cameras that there were moments where I thought I would never be able to do it. Eventually, I realized that Python could help turn Blender into a repeatable render system for the collection. That changed the direction of the project. Instead of making one planet at a time by hand, I started learning how data, scripts, and visual rules could work together. I want people to see this as a different kind of AI-assisted journey. AI helped me learn, troubleshoot, and organize, but it did not replace the work. The goal was to build skills, not skip them. The final renders are the result of persistence, testing, mistakes, and learning how to make the archive visually consistent.</p>
+    </article>
+    <article class="card" data-number="04">
+      <p class="kicker">Launch</p>
+      <h2>GitHub, marketplace prep, and collection strategy</h2>
+      <p>As the collection moves toward launch, I hope people can see the countless hours that went into building it. Over the last six months, I have been learning how to take a broad idea and focus it into a 6,100 planet NFT collection with a website, metadata, preview graphics, rarity structure, and long-term story direction. GitHub became part of that journey because I had to learn how to update files, test changes, fix broken paths, and keep the site moving forward one correction at a time. Marketplace preparation has also pushed me to think beyond the art. A real collection needs clear language, protected previews, working pages, launch timing, collector trust, and a strategy that makes sense. In the end, I want people to appreciate both sides of the project: the digital art itself and the journey it took to build it from nothing into something ready for the public.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper journey-closing">
+    <article class="card">
+      <p class="kicker">Built in public, one correction at a time</p>
+      <h2>The archive is still growing.</h2>
+      <p>The Syndicate Exoplanet Archive is a launch project, a learning project, and the beginning of a larger universe. The NFT collection comes first. The novel, lore, merch, and future expansions will grow from the archive after the foundation is strong.</p>
+    </article>
   </div>
 </section>
 </main>
